@@ -28,7 +28,9 @@ class CustomHeader extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.only(right: 15.0),
                 child: InkWell(
-                  onTap: () {},
+                  onTap: () {
+                    Navigator.pushReplacementNamed(context, "/login");
+                  },
                   child: const Icon(
                     Icons.logout_rounded,
                     color: AppTheme.accentColor,

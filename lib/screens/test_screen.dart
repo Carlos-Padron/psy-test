@@ -1,33 +1,37 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_boxicons/flutter_boxicons.dart';
+import 'package:provider/provider.dart';
+import 'package:test_psi/providers/question_provider.dart';
 import 'package:test_psi/theme/app_theme.dart';
 import 'package:test_psi/widgets/custom_header.dart';
+import 'package:test_psi/widgets/test_body.dart';
 
 class TestScreen extends StatefulWidget {
-  TestScreen({Key? key}) : super(key: key);
+  const TestScreen({Key? key}) : super(key: key);
 
   @override
   State<TestScreen> createState() => _TestScreenState();
 }
 
 class _TestScreenState extends State<TestScreen> {
-  String selectedValue = "1";
+  @override
+  void initState() {
+    super.initState();
+    final questionProvider =
+        Provider.of<QuestionProvider>(context, listen: false);
 
-  final List<DropdownMenuItem<String>> menuItems = [
-    const DropdownMenuItem(value: "1", child: Text("1")),
-    const DropdownMenuItem(value: "2", child: Text("2")),
-    const DropdownMenuItem(value: "3", child: Text("3")),
-    const DropdownMenuItem(value: "4", child: Text("4")),
-    const DropdownMenuItem(value: "5", child: Text("5")),
-    const DropdownMenuItem(value: "6", child: Text("6")),
-    const DropdownMenuItem(value: "7", child: Text("7")),
-  ];
+    questionProvider.getQuestion();
+  }
 
   @override
   Widget build(BuildContext context) {
     final headerHeight = MediaQuery.of(context).padding.top + 56;
     final bottomSafeArea = MediaQuery.of(context).padding.bottom;
     final deviceSize = MediaQuery.of(context).size;
+
+    //Provider
+    final questionProvider = Provider.of<QuestionProvider>(context);
+
+    //questionProvider.getQuestion();
 
     return Scaffold(
       body: Column(
@@ -36,90 +40,49 @@ class _TestScreenState extends State<TestScreen> {
           SizedBox(
             height: deviceSize.height - headerHeight - bottomSafeArea,
             width: double.infinity,
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Column(
-                  children: [
-                    const SizedBox(height: 40),
-                    Container(
-                      child: Padding(
-                        padding: const EdgeInsets.symmetric(
-                            vertical: 20, horizontal: 30),
-                        child: SizedBox(
-                          child: Column(
-                            children: [
-                              const Text(
-                                "¿Cómo te sientes el día de hoy?",
-                                textAlign: TextAlign.center,
-                                style: TextStyle(
-                                    color: AppTheme.text,
-                                    fontSize: 30,
-                                    fontFamily: "Medium"),
-                              ),
-                              const SizedBox(height: 40),
-                              Container(
-                                height: 60,
-                                width: double.infinity,
-                                decoration: const BoxDecoration(
-                                    borderRadius:
-                                        BorderRadius.all(Radius.circular(8)),
-                                    color: AppTheme.ligthGray),
-                                child: DropdownButtonHideUnderline(
-                                  child: DropdownButton(
-                                    value: selectedValue,
-                                    items: menuItems,
-                                    borderRadius: BorderRadius.circular(8),
-                                    style: const TextStyle(
-                                        color: AppTheme.text,
-                                        fontSize: 20,
-                                        fontFamily: "Regular"),
-                                    elevation: 0,
-                                    onChanged: (String? newValue) {
-                                      setState(() {
-                                        selectedValue = newValue!;
-                                      });
-                                    },
-                                  ),
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-                const Icon(
-                  Boxicons.bx_heart_circle,
-                  size: 200,
-                  color: AppTheme.red,
-                ),
-                Stack(
-                  children: [
-                    ClipRRect(
-                      borderRadius: BorderRadius.circular(8),
-                      child: Container(
-                        height: 40,
-                        width: double.infinity,
-                        color: AppTheme.ligthGray,
-                      ),
-                    ),
-                    ClipRRect(
-                      borderRadius: BorderRadius.circular(8),
-                      child: Container(
-                        height: 40,
-                        width: 80,
-                        color: AppTheme.accentColor,
-                      ),
-                    )
-                  ],
-                )
-              ],
+            child: renderContent(
+              questionProvider.dataReceived,
+              questionProvider.loadingData,
+              questionProvider.error,
+              questionProvider.errorMessage,
             ),
           ),
         ],
       ),
     );
+  }
+
+  //
+  Widget renderContent(
+      bool dataReceived, bool loading, bool error, String errMsg) {
+    //questionProvider.
+    if (loading && !error) {
+      //Loading
+      return loadingContent();
+    }
+    if (!loading && dataReceived) {
+      //Result
+      return TestBody();
+    }
+    if (!loading && error) {
+      //Error
+      onError(errMsg);
+    }
+    return Container();
+  }
+
+  //Loading Content
+  Center loadingContent() {
+    return const Center(
+      child: CircularProgressIndicator(
+        backgroundColor: AppTheme.primaryColor,
+        color: AppTheme.accentColor,
+      ),
+    );
+  }
+
+  //Error content
+  Center onError(String err) {
+    return Center(child: Text(err));
   }
 }

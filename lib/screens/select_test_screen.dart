@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_boxicons/flutter_boxicons.dart';
+import 'package:provider/provider.dart';
+import 'package:test_psi/providers/question_provider.dart';
 import 'package:test_psi/theme/app_theme.dart';
 import 'package:test_psi/widgets/custom_header.dart';
 
@@ -13,6 +15,8 @@ class SelectTestScreen extends StatefulWidget {
 class _SelectTestScreenState extends State<SelectTestScreen> {
   @override
   Widget build(BuildContext context) {
+    final questionProvider = Provider.of<QuestionProvider>(context);
+
     return Scaffold(
       body: Container(
         height: double.infinity,
@@ -24,10 +28,11 @@ class _SelectTestScreenState extends State<SelectTestScreen> {
             SingleChildScrollView(
               child: InkWell(
                 onTap: () {
-                  Navigator.pushNamed(context, "/answerTest");
+                  Navigator.pushReplacementNamed(context, "/answerTest");
                 },
                 child: Padding(
-                  padding: EdgeInsets.symmetric(vertical: 12, horizontal: 15),
+                  padding:
+                      const EdgeInsets.symmetric(vertical: 12, horizontal: 15),
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(8),
                     child: Container(
@@ -50,6 +55,7 @@ class _SelectTestScreenState extends State<SelectTestScreen> {
                             ),
                           ),
                           const Align(
+                            alignment: Alignment.center,
                             child: Text(
                               "Encuesta de snacks",
                               style: TextStyle(
@@ -57,7 +63,6 @@ class _SelectTestScreenState extends State<SelectTestScreen> {
                                   fontSize: 30,
                                   fontFamily: "Medium"),
                             ),
-                            alignment: Alignment.center,
                           )
                         ],
                       ),

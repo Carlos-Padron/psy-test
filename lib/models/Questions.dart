@@ -27,9 +27,10 @@ class Questions {
   Questions.fromJson(Map<String, dynamic> json) {
     _id = json['id'];
     _question = json['question'];
-    if (json['QuestionAnswers'] != null) {
+
+    if (json['answers'] != null) {
       _questionAnswers = <QuestionAnswers>[];
-      json['QuestionAnswers'].forEach((v) {
+      json['answers'].forEach((v) {
         _questionAnswers.add(new QuestionAnswers.fromJson(v));
       });
     }
@@ -40,8 +41,7 @@ class Questions {
     data['id'] = this._id;
     data['question'] = this._question;
     if (this._questionAnswers != null) {
-      data['QuestionAnswers'] =
-          this._questionAnswers.map((v) => v.toJson()).toList();
+      data['answers'] = this._questionAnswers.map((v) => v.toJson()).toList();
     }
     return data;
   }
