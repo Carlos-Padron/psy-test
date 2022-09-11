@@ -36,7 +36,9 @@ class _TestScreenState extends State<TestScreen> {
     return Scaffold(
       body: Column(
         children: [
-          const CustomHeader(),
+          const CustomHeader(
+            name: "Arturo",
+          ),
           SizedBox(
             height: deviceSize.height - headerHeight - bottomSafeArea,
             width: double.infinity,

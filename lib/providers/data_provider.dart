@@ -21,7 +21,6 @@ class DataProvider extends ChangeNotifier {
 
       //Read from file
       if (file.existsSync()) {
-        print("existe");
         file.writeAsStringSync(json.encode(respuestas));
 
         String readJson = file.readAsStringSync();
@@ -45,5 +44,25 @@ class DataProvider extends ChangeNotifier {
     });
 
     print(respuestas);
+  }
+
+  Future readFile() async {
+    String fileName = 'results.json';
+    var dir = await getTemporaryDirectory();
+    File file = File('${dir.path}/$fileName');
+
+    if (file.existsSync()) {
+      print("existe");
+
+      file.writeAsStringSync(json.encode(respuestas));
+
+      String readJson = file.readAsStringSync();
+
+      //dynamic jsonData = json.decode(readJson);
+
+      print(readJson);
+    } else {
+      print("No existe el archivo");
+    }
   }
 }

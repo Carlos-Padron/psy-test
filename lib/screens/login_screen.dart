@@ -64,7 +64,7 @@ class LoginScreen extends StatelessWidget {
                         const SizedBox(height: 20),
                         CustomTextField(
                           isPassword: true,
-                          formProperty: 'user',
+                          formProperty: 'pw',
                           formValues: formValues,
                           hintText: "Contraseña",
                           validador: (value) {
@@ -87,7 +87,11 @@ class LoginScreen extends StatelessWidget {
                         //User Admin, pw: 123456 //Evaluador
                         //User Arturo, pw: 123456 // Evaluado
 
+                        print(formValues["user"]);
+
                         if (formValues['user'] == "Admin") {
+                          Navigator.pushReplacementNamed(
+                              context, "/selectPatient");
                         } else {
                           Navigator.pushReplacementNamed(
                               context, "/selectTest");

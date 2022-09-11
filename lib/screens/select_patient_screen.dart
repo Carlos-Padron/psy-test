@@ -5,18 +5,11 @@ import 'package:test_psi/providers/question_provider.dart';
 import 'package:test_psi/theme/app_theme.dart';
 import 'package:test_psi/widgets/custom_header.dart';
 
-class SelectTestScreen extends StatefulWidget {
-  const SelectTestScreen({Key? key}) : super(key: key);
+class SelectPatientScreen extends StatelessWidget {
+  const SelectPatientScreen({Key? key}) : super(key: key);
 
-  @override
-  State<SelectTestScreen> createState() => _SelectTestScreenState();
-}
-
-class _SelectTestScreenState extends State<SelectTestScreen> {
   @override
   Widget build(BuildContext context) {
-    final questionProvider = Provider.of<QuestionProvider>(context);
-
     return Scaffold(
       body: Container(
         height: double.infinity,
@@ -25,12 +18,12 @@ class _SelectTestScreenState extends State<SelectTestScreen> {
         child: Column(
           children: [
             const CustomHeader(
-              name: "Arturo",
+              name: "Admin",
             ),
             SingleChildScrollView(
               child: InkWell(
                 onTap: () {
-                  Navigator.pushReplacementNamed(context, "/answerTest");
+                  Navigator.pushReplacementNamed(context, "/reviewAnswers");
                 },
                 child: Padding(
                   padding:
@@ -41,7 +34,7 @@ class _SelectTestScreenState extends State<SelectTestScreen> {
                       //margin: EdgeInsets.symmetric(vertical: 12, horizontal: 25),
                       height: 120,
                       width: double.infinity,
-                      color: AppTheme.yellow,
+                      color: AppTheme.accentColor,
                       child: Stack(
                         children: [
                           Positioned(
@@ -59,7 +52,7 @@ class _SelectTestScreenState extends State<SelectTestScreen> {
                           const Align(
                             alignment: Alignment.center,
                             child: Text(
-                              "Encuesta de snacks",
+                              "Arturo",
                               style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 30,

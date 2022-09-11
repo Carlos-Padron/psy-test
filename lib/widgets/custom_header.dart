@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:test_psi/theme/app_theme.dart';
 
 class CustomHeader extends StatelessWidget {
-  const CustomHeader({Key? key}) : super(key: key);
+  final String? name;
+
+  const CustomHeader({Key? key, this.name}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -17,11 +19,11 @@ class CustomHeader extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              const Padding(
+              Padding(
                 padding: EdgeInsets.only(left: 15.0),
                 child: Text(
-                  "Arturo",
-                  style: TextStyle(
+                  name ?? "",
+                  style: const TextStyle(
                       color: Colors.white, fontSize: 25, fontFamily: "Medium"),
                 ),
               ),

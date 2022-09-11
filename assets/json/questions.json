@@ -24,5 +24,759 @@
       { "value": 6, "answer": "6" },
       { "value": 7, "answer": "7" }
     ]
+  },
+  {
+    "id": 3,
+    "question": "Siempre anhelé",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Si yo estuviera a cargo",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "El futuro me parece",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Las personas que están sobre mi",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Sé que es tonto pero tengo miedo de",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Creo que un verdadero amigo",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Cuando era niño (a)",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Mi idea de mujer (hombre) perfecta (o)",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Cuando veo a un hombre y a una mujer juntos",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Comparada con las demás familias, la mía",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "En las labores me llevo mejor con",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Mi madre",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Haría cualquier cosa por olvidar la vez que",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Si mi padre tan solo",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Siento que tengo habilidades para",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Sería perfectamente feliz si",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Si la gente trabajara para mi",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "Yo espero",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 21,
+    "question": "En la escuela, mis maestros",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 22,
+    "question": "La mayoría de mis amistades no saben que tengo miedo de",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 23,
+    "question": "No me gusta la gente que",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 24,
+    "question": "Antes",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 25,
+    "question": "Pienso que la mayoría de los muchachos (as)",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 26,
+    "question": "Yo creo que la vida matrimonial",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 27,
+    "question": "Mi familia me trata como",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 28,
+    "question": "Aquellos con los que trabajo",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 29,
+    "question": "Mi madre y yo",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 30,
+    "question": "Mi mas grande error fue",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 31,
+    "question": "Desaría que mi padre",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 32,
+    "question": "Mi mayor debilidad es",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 33,
+    "question": "Mi ambición secreta en la vida",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 34,
+    "question": "La gente que trabaja para mi",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 35,
+    "question": "Algún día yo",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 36,
+    "question": "Cuando veo al jefe venir",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 37,
+    "question": "Quisiera perder el miedo de",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 38,
+    "question": "La gente que mas me agrada",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 39,
+    "question": "Si fuera joven otra vez",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 40,
+    "question": "Creo que la mayoría de las mujeres (hombres)",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 41,
+    "question": "Si tuviera relaciones sexuales",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 42,
+    "question": "La mayoría de las familias que conozco",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 43,
+    "question": "Me gusta trabajar con la gente que",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 44,
+    "question": "Creo que la mayoría de las madres",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 45,
+    "question": "Cuando era mas joven me sentía culpable de",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 46,
+    "question": "Siento que mi padre es",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 47,
+    "question": "Cuando la suerte se vuelve en contra mía",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 48,
+    "question": "Cuando doy ordenes, yo",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 49,
+    "question": "Lo que mas deseo en la vida es",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 50,
+    "question": "Dentro de algún tiempo",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 51,
+    "question": "La gente a quien yo considero mis superiores",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 52,
+    "question": "Mis temores en ocasiones me obligan a",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 53,
+    "question": "Cuando no estoy, mis amigos",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 54,
+    "question": "Mi más vívido recuerdo de la infancia",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 55,
+    "question": "Lo que menos me gusta de las mujeres (hombres)",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 56,
+    "question": "Mi vida sexual",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 57,
+    "question": "Cuando era niño (a), mi familia",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 58,
+    "question": "La gente que trabaja conmigo, generalmente",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 59,
+    "question": "Me agrada mi madre, pero",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
+  },
+  {
+    "id": 60,
+    "question": "La peor cosa que he hecho",
+    "answers": [
+      { "value": 1, "answer": "1" },
+      { "value": 2, "answer": "2" },
+      { "value": 3, "answer": "3" },
+      { "value": 4, "answer": "4" },
+      { "value": 5, "answer": "5" },
+      { "value": 6, "answer": "6" },
+      { "value": 7, "answer": "7" }
+    ]
   }
 ]
