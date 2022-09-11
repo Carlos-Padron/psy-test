@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:test_psi/providers/data_provider.dart';
+import 'package:test_psi/providers/question_provider.dart';
 import 'package:test_psi/theme/app_theme.dart';
 
 class CustomHeader extends StatelessWidget {
@@ -9,6 +12,10 @@ class CustomHeader extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final safeArea = MediaQuery.of(context).padding.top;
+
+    final questionProvider = Provider.of<QuestionProvider>(context);
+    final dataProvider = Provider.of<DataProvider>(context);
+
     return Container(
       height: 56 + safeArea,
       width: double.infinity,
@@ -32,6 +39,8 @@ class CustomHeader extends StatelessWidget {
                 child: InkWell(
                   onTap: () {
                     Navigator.pushReplacementNamed(context, "/login");
+                    questionProvider.restValues();
+                    dataProvider.resetValues();
                   },
                   child: const Icon(
                     Icons.logout_rounded,

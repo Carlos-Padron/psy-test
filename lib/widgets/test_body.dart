@@ -9,12 +9,6 @@ import 'package:test_psi/theme/app_theme.dart';
 class TestBody extends StatelessWidget {
   TestBody({Key? key}) : super(key: key);
 
-  // String selectedValue = "1";
-
-  final List<DropdownMenuItem> menuItems = [
-    const DropdownMenuItem(value: "1", child: Text("1"))
-  ];
-
   @override
   Widget build(BuildContext context) {
     final questionProviver = Provider.of<QuestionProvider>(context);
@@ -106,6 +100,11 @@ class TestBody extends StatelessWidget {
                                             questionProviver.currentQuestion]
                                         .questionAnswers[(value ?? 1) - 1]
                                         .answer);
+
+                                if (questionProviver.currentQuestion + 1 ==
+                                    questionProviver.questionArray.length) {
+                                  dataProvider.save();
+                                }
 
                                 //shows new questions
                                 questionProviver.showNextQuestion();

@@ -28,7 +28,7 @@ class QuestionProvider extends ChangeNotifier {
   get loadingData => _loadingData;
   get error => _error;
   get errorMessage => _errorMessage;
-  get testDone => _testDone;
+  bool get testDone => _testDone;
 
   //Reads json file to display questions
   getQuestion() async {
@@ -64,5 +64,17 @@ class QuestionProvider extends ChangeNotifier {
     }
 
     notifyListeners();
+  }
+
+  restValues() {
+    _questionArray = [];
+    _currentQuestion = 0;
+
+    //Flags
+    _dataReceived = false;
+    _loadingData = true;
+    _error = false;
+    _errorMessage = "";
+    _testDone = false;
   }
 }
