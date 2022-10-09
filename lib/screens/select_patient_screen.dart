@@ -23,7 +23,7 @@ class SelectPatientScreen extends StatelessWidget {
             SingleChildScrollView(
               child: InkWell(
                 onTap: () {
-                  Navigator.pushReplacementNamed(context, "/reviewAnswers");
+                  Navigator.pushNamed(context, "/reviewAnswers");
                 },
                 child: Padding(
                   padding:

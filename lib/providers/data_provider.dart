@@ -53,10 +53,14 @@ class DataProvider extends ChangeNotifier {
     var dir = await getTemporaryDirectory();
     File file = File('${dir.path}/$fileName');
 
+    //print(file.existsSync());
+
     if (file.existsSync()) {
       String readJson = file.readAsStringSync();
+      //print(readJson);
 
       dynamic jsonData = json.decode(readJson);
+      //print(jsonData);
 
       gradeResults(jsonData);
     }
@@ -69,94 +73,100 @@ class DataProvider extends ChangeNotifier {
     // Para acceder a la pregunta 14 uso el indice 13, 14 - 1 = 13
     //Actitud frente a la madre
 
-    double actMadre = ((json[14 - 1].value +
-            json[29 - 1].value +
-            json[44 - 1].value +
-            json[59 - 1].value) /
+    _resultados = [];
+
+    print(json[14 - 1]);
+    print(json[14 - 1]["value"]);
+    print("=====");
+
+    double actMadre = ((json[14 - 1]["value"] +
+            json[29 - 1]["value"] +
+            json[44 - 1]["value"] +
+            json[59 - 1]["value"]) /
         4);
 
-    double actPadre = ((json[1 - 1].value +
-            json[16 - 1].value +
-            json[31 - 1].value +
-            json[46 - 1].value) /
+    double actPadre = ((json[1 - 1]["value"] +
+            json[16 - 1]["value"] +
+            json[31 - 1]["value"] +
+            json[46 - 1]["value"]) /
         4);
 
-    double actUniFam = ((json[12 - 1].value +
-            json[27 - 1].value +
-            json[42 - 1].value +
-            json[57 - 1].value) /
+    double actUniFam = ((json[12 - 1]["value"] +
+            json[27 - 1]["value"] +
+            json[42 - 1]["value"] +
+            json[57 - 1]["value"]) /
         4);
 
-    double actSexCont = ((json[10 - 1].value +
-            json[25 - 1].value +
-            json[40 - 1].value +
-            json[55 - 1].value) /
+    double actSexCont = ((json[10 - 1]["value"] +
+            json[25 - 1]["value"] +
+            json[40 - 1]["value"] +
+            json[55 - 1]["value"]) /
         4);
 
-    double actRelHet = ((json[11 - 1].value +
-            json[26 - 1].value +
-            json[41 - 1].value +
-            json[56 - 1].value) /
+    double actRelHet = ((json[11 - 1]["value"] +
+            json[26 - 1]["value"] +
+            json[41 - 1]["value"] +
+            json[56 - 1]["value"]) /
         4);
 
-    double actAmigos = ((json[8 - 1].value +
-            json[23 - 1].value +
-            json[38 - 1].value +
-            json[53 - 1].value) /
+    double actAmigos = ((json[8 - 1]["value"] +
+            json[23 - 1]["value"] +
+            json[38 - 1]["value"] +
+            json[53 - 1]["value"]) /
         4);
 
-    double actPerSup = ((json[6 - 1].value +
-            json[21 - 1].value +
-            json[36 - 1].value +
-            json[51 - 1].value) /
+    double actPerSup = ((json[6 - 1]["value"] +
+            json[21 - 1]["value"] +
+            json[36 - 1]["value"] +
+            json[51 - 1]["value"]) /
         4);
 
-    double actPerSupervi = ((json[4 - 1].value +
-            json[19 - 1].value +
-            json[34 - 1].value +
-            json[48 - 1].value) /
+    double actPerSupervi = ((json[4 - 1]["value"] +
+            json[19 - 1]["value"] +
+            json[34 - 1]["value"] +
+            json[48 - 1]["value"]) /
         4);
 
-    double actCompTraEsc = ((json[13 - 1].value +
-            json[28 - 1].value +
-            json[43 - 1].value +
-            json[58 - 1].value) /
+    double actCompTraEsc = ((json[13 - 1]["value"] +
+            json[28 - 1]["value"] +
+            json[43 - 1]["value"] +
+            json[58 - 1]["value"]) /
         4);
 
-    double temores = ((json[7 - 1].value +
-            json[22 - 1].value +
-            json[37 - 1].value +
-            json[52 - 1].value) /
+    double temores = ((json[7 - 1]["value"] +
+            json[22 - 1]["value"] +
+            json[37 - 1]["value"] +
+            json[52 - 1]["value"]) /
         4);
 
-    double sentCulp = ((json[15 - 1].value +
-            json[30 - 1].value +
-            json[45 - 1].value +
-            json[60 - 1].value) /
+    double sentCulp = ((json[15 - 1]["value"] +
+            json[30 - 1]["value"] +
+            json[45 - 1]["value"] +
+            json[60 - 1]["value"]) /
         4);
 
-    double propHab = ((json[2 - 1].value +
-            json[17 - 1].value +
-            json[32 - 1].value +
-            json[47 - 1].value) /
+    double propHab = ((json[2 - 1]["value"] +
+            json[17 - 1]["value"] +
+            json[32 - 1]["value"] +
+            json[47 - 1]["value"]) /
         4);
 
-    double actPasado = ((json[9 - 1].value +
-            json[24 - 1].value +
-            json[39 - 1].value +
-            json[54 - 1].value) /
+    double actPasado = ((json[9 - 1]["value"] +
+            json[24 - 1]["value"] +
+            json[39 - 1]["value"] +
+            json[54 - 1]["value"]) /
         4);
 
-    double actFuturo = ((json[5 - 1].value +
-            json[20 - 1].value +
-            json[35 - 1].value +
-            json[50 - 1].value) /
+    double actFuturo = ((json[5 - 1]["value"] +
+            json[20 - 1]["value"] +
+            json[35 - 1]["value"] +
+            json[50 - 1]["value"]) /
         4);
 
-    double metas = ((json[3 - 1].value +
-            json[18 - 1].value +
-            json[33 - 1].value +
-            json[49 - 1].value) /
+    double metas = ((json[3 - 1]["value"] +
+            json[18 - 1]["value"] +
+            json[33 - 1]["value"] +
+            json[49 - 1]["value"]) /
         4);
 
     _resultados.add({
@@ -280,6 +290,7 @@ class DataProvider extends ChangeNotifier {
     });
   }
 
+  //Aqui puedes modificar los colores
   Color getColors(double value, bool accent) {
     if (accent) {
       if (value <= 1) {
@@ -303,7 +314,7 @@ class DataProvider extends ChangeNotifier {
       } else if (value <= 2) {
         return Colors.orangeAccent;
       } else if (value <= 3) {
-        return Colors.yellowAccent;
+        return Color.fromARGB(255, 219, 219, 0);
       } else if (value <= 4) {
         return Colors.greenAccent;
       } else if (value <= 5) {
